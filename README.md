@@ -1,4 +1,4 @@
-Oi 👋
+👋 Oi!
 
 🔭 Atualmente estou trabalhando autonomo.
 
