@@ -1,6 +1,6 @@
 👋 Oi!
 
-🔭 Atualmente estou trabalhando autonomo.
+🔭 Trabalhando autonomo.
 
 🌱 Atualmente estou aprendendo HTML, CSS, JAVASCRIPT, SQL, NODE, REACT.
 
