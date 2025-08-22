@@ -1,6 +1,10 @@
-🔭 Trabalhando autonomo.
+const meuStack = {
+  css: ["CSS Grid", "Flexbox", "Responsive Design"],
+  javascript: ["ES6+", "Async/Await", "APIs"],
+  react: ["Hooks", "Context API", "State Management"],
+  backend: ["Express.js", "APIs REST", "Autenticação"],
+  bancoDados: ["MySQL", "PostgreSQL", "ORM (Prisma)"]
+};
 
-Atualmente estou aprendendo HTML, CSS, JAVASCRIPT, SQL, NODE, REACT.
 
-📫 Como chegar até mim: danielclaitul@gmail.com.
 
