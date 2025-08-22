@@ -4,9 +4,9 @@
 
 ```js
 const meuStack = {
-  fundamentos: ["HTML5", "CSS3", "JavaScript"],
+  fundamentos: ["HTML", "CSS"],
   frontend: ["React", "Next.js", "Hooks", "Context API"],
   backend: ["Node.js", "Express.js", "APIs REST", "Autenticação"],
-  bancoDados: ["MySQL", "PostgreSQL", "ORM (Prisma)"],
+  bancoDados: ["MySQL", "PostgreSQL", "ORM (Prisma)" "FireBase"],
   linguagens: ["TypeScript", "JavaScript"]
 };
