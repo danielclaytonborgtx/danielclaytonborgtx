@@ -5,6 +5,3 @@ const meuStack = {
   backend: ["Express.js", "APIs REST", "Autenticação"],
   bancoDados: ["MySQL", "PostgreSQL", "ORM (Prisma)"]
 };
-
-
-
