@@ -5,68 +5,36 @@
 ```js
 "use client";
 
-import { motion } from "framer-motion";
-
-const meuStack = {
-  fundamentos: ["HTML", "CSS"],
-  frontend: ["React", "Next.js", "Hooks", "Context API"],
-  backend: ["Node.js", "Express.js", "APIs REST", "Autenticação"],
-  bancoDados: ["MySQL", "PostgreSQL", "ORM (Prisma)", "FireBase"],
-  linguagens: ["TypeScript", "JavaScript"]
-};
+const meuStack = ["HTML", "CSS", "React", "Next.js", "Node.js", "PostgreSQL", "TypeScript", "JavaScript"];
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white p-6">
-      <section className="text-center my-10">
-        <h1 className="text-4xl font-bold">👨‍💻 Olá, eu sou Daniel</h1>
-        <p className="text-lg mt-2 text-gray-300">
-          Desenvolvedor Fullstack apaixonado por criar soluções modernas
-        </p>
-      </section>
+    <main className="min-h-screen flex flex-col items-center justify-center bg-gray-900 text-white p-6 text-center">
+      <h1 className="text-3xl font-bold mb-2">👨‍💻 Daniel</h1>
+      <p className="text-gray-300 mb-6">Desenvolvedor Fullstack</p>
 
-      <section className="max-w-4xl mx-auto mt-10">
-        <h2 className="text-2xl font-semibold mb-6">🚀 Meu Stack</h2>
-        <div className="grid md:grid-cols-2 gap-6">
-          {Object.entries(meuStack).map(([categoria, tecnologias]) => (
-            <motion.div
-              key={categoria}
-              className="bg-gray-800 rounded-2xl p-5 shadow-lg"
-              whileHover={{ scale: 1.05 }}
-            >
-              <h3 className="text-xl font-bold capitalize mb-3">{categoria}</h3>
-              <ul className="space-y-2">
-                {tecnologias.map((tech) => (
-                  <li
-                    key={tech}
-                    className="bg-gray-700 px-3 py-1 rounded-lg inline-block text-sm"
-                  >
-                    {tech}
-                  </li>
-                ))}
-              </ul>
-            </motion.div>
-          ))}
-        </div>
-      </section>
+      <h2 className="text-lg font-semibold mb-3">🚀 Stack</h2>
+      <div className="flex flex-wrap justify-center gap-2 max-w-md">
+        {meuStack.map((tech) => (
+          <span key={tech} className="bg-gray-700 px-3 py-1 rounded-lg text-sm">
+            {tech}
+          </span>
+        ))}
+      </div>
 
-      <section className="text-center mt-16">
-        <h2 className="text-xl font-semibold">📬 Vamos conversar?</h2>
-        <p className="text-gray-400 mt-2">
-          Entre em contato pelo{" "}
+      <div className="mt-8">
+        <p className="text-gray-400">
+          📬{" "}
           <a href="mailto:danielclaitul@gmail.com" className="text-blue-400 underline">
-            email
+            Contato
           </a>{" "}
-          ou me encontre no{" "}
-          <a
-            href="https://github.com/danielclaytonborgtx"
-            target="_blank"
-            className="text-blue-400 underline"
-          >
+          |{" "}
+          <a href="https://github.com/danielclaytonborgtx" target="_blank" className="text-blue-400 underline">
             GitHub
-          </a>.
+          </a>
         </p>
-      </section>
+      </div>
     </main>
   );
 }
+
