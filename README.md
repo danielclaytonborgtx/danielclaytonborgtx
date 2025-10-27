@@ -1,11 +1,6 @@
-## Olá! Eu sou o Daniel 👋
+## Olá! Eu sou o Daniel Clayton👋
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daniel-clayton-60538a236/)
-
----
-
-### 📊 Most Used Languages
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=seuusuario&layout=compact&langs_count=8&theme=tokyonight)
 
 ---
 
