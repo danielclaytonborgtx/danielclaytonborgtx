@@ -1,8 +1,3 @@
-# 🛠️ Meu Stack de Tecnologias
-
-## 📋 Visão Geral
-
-```js
 ---
 
 ## 🚀 Stack
